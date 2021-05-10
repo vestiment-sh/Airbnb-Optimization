@@ -1,5 +1,13 @@
 # Airbnb Optimization
 
+## Procedure
+
+### Extract
+### Load
+### Transform
+
+## Code Demo
+
 ## Contact Information
 Feel free to contact our team regarding any component of this repo:
 
