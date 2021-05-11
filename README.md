@@ -58,10 +58,10 @@ Step 3: Next, we're going to upload our csv file. Make sure to click on the name
 ![image](https://user-images.githubusercontent.com/38171817/117855333-5fdb3600-b258-11eb-8061-272f919b22ee.png)
 
 ## [Analysis for NYC Listings](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/Analysis.ipynb)
-We analyzed the listing data.
+We analyzed the listing data for trends, looking for insight as to which predictors have the most significance in determining price of an Airbnb listng.
 
 ## [Predict Price](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/Price_Prediction.ipynb)
-We predicted the listing daily price to propose several listings can increase the price.
+We created a prediction model with our findings to try and predict the daily price of a listing based on the factors. 
 
 ## Code Demo
 Our program can be found here: (INSERT LINK)
