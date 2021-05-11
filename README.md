@@ -18,13 +18,19 @@ Step 1: Using a Google account, create a new project on https://console.cloud.go
 
 ![image](https://user-images.githubusercontent.com/38171817/117841446-12a49780-b24b-11eb-9009-6d235b8d927d.png)
 
-Step 2: Create a new dataset with a unique name, possibly the name of the csv file you'll be uploading or simply "Table1." Keep everything as it's default, however you can choose a table expiration date as an option.
+Step 2: Create a new dataset with a unique name, possibly the name of the project you're working on or simply "Set1." Keep everything as it's default, however you can choose a table expiration date as an option.
 
 ![image](https://user-images.githubusercontent.com/38171817/117846671-a5dfcc00-b24f-11eb-9f5d-2869a1e37e76.png)
 
 ![image](https://user-images.githubusercontent.com/38171817/117850485-569b9a80-b253-11eb-8b34-f149d00f34ea.png)
 
-Step 3: 
+Step 3: Next, we're going to upload our csv file onto our table by selecting "Google Cloud Storage" as the source and pasting our CSV URL into the GCS bucket. Finally, before creating the table, check the box for "Auto Detect" to recognize the schema. Repeat this step for all tables included.
+
+![image](https://user-images.githubusercontent.com/38171817/117855040-138ff600-b258-11eb-8e0b-546383927874.png)
+
+![image](https://user-images.githubusercontent.com/38171817/117855333-5fdb3600-b258-11eb-8061-272f919b22ee.png)
+
+
 ## Procedure
 
 ### Extract
