@@ -13,17 +13,26 @@ The following instructions are a guide to build a functional ETL pipeline using 
   - Set-Up Tutorial: https://www.youtube.com/watch?v=sV2XX7LbYEw
 
 
-Step 1: Using a Google account, create a new project on https://console.cloud.google.com/home/ under BigQuery. Assign a unique name to your project so you don't forget where you're storing your data.
+Before preceding, please ensure that you are logged into your google account that you would like your data to be linked to.
+
+Step 1: Using a Google account, create a new project on https://console.cloud.google.com/bigquery by clicking on the dropdown menu on the top of the page which is on the right side of where it says "Google Cloud Platform". A window will pop up which has the "New Project" button in the top right, click that. Assign a unique name to your project so you don't forget where you're storing your data.
 
 ![image](https://user-images.githubusercontent.com/38171817/117841446-12a49780-b24b-11eb-9009-6d235b8d927d.png)
 
-Step 2: Create a new dataset with a unique name by clicking the option shown in the picture. You can name the dataset according to your needs or simply as "Set1." Keep all other settings in this window as it's default, however you can choose a data location and table expiration date as an option if needed. By default, the data is going to be stored in the US multi-region.
+Step 2: Once the project is created, go to the same drop down menu on the top of the page from before and open your project. This will populate it into the schema next to the console. Create a new dataset with a unique name by clicking the option shown in the picture. You can name the dataset according to your needs or simply as "Set1." Keep all other settings in this window as it's default, however you can choose a data location and table expiration date as an option if needed. By default, the data is going to be stored in the US multi-region.
 
 ![image](https://user-images.githubusercontent.com/38171817/117846671-a5dfcc00-b24f-11eb-9f5d-2869a1e37e76.png)
 
 ![image](https://user-images.githubusercontent.com/38171817/117850485-569b9a80-b253-11eb-8b34-f149d00f34ea.png)
 
-Step 3: Next, we're going to upload our csv file and create a new table by selecting "Google Cloud Storage" as the source and pasting our CSV URL into the GCS bucket. Finally, before creating the table, check the box for "Auto Detect" to recognize the schema. Repeat this step for all tables included.
+Step 3: Next, we're going to upload our csv file. Make sure to click on the name of the dataset you just created to open it and click create a new table as shown in the picture. 
+- Under Source, make sure to select the "Upload" option in the "Create Table From" dropdown.
+- Browse your computer for the CSV file containing the dataset and select it. Make sure to select the file format as CSV in the drop down menu. 
+- Under Destination, select the "Search for a project" option and choose the name of the project that you created earlier. For dataset name, type in the name you gave the dataset if it is not there already. Finally under "Table Name" give your table a name.
+- Under Schema, make sure to select the "Schema and input parameters" under Auto detect. 
+- Finally under advanced options, under "Header rows to skip" type in "1" so that the table recognizes the first row as a header row.
+- Keep all other options as their default and click the "Create Table" button in the bottom right. 
+- Repeat this procedure for each table that you intend to create. 
 
 ![image](https://user-images.githubusercontent.com/38171817/117855040-138ff600-b258-11eb-8e0b-546383927874.png)
 
