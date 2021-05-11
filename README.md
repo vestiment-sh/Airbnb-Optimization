@@ -7,7 +7,7 @@ The following instructions are a guide to build a functional ETL pipeline using 
 - Anaconda Navigator: https://docs.anaconda.com/anaconda/install/
 - JetBrains' PyCharm: https://www.jetbrains.com/pycharm/download/#section=windows
 
-2. In order to build our ETL pipeline, we need a powerful database server to upload data to and host our data warehouse, while also being able to create the tables with our specifications. We're going to use Google BiqQuery to quickly run our SQL queries and effectively store our data. Since Google Bigquery is on the cloud, it is easy to access on any computer without any need to install anything onto your computer. 
+2. In order to build our ETL pipeline, we need a powerful database server to upload data to and host our data warehouse, while also being able to create the tables with our specifications. We're going to use Google BiqQuery to quickly run our SQL queries and effectively store our data. Since Google Bigquery is on the cloud, it is easy to access on any computer without any need to install anthing onto your computer. 
  
 - Google BigQuery: https://cloud.google.com/bigquery
   - Set-Up Tutorial: https://www.youtube.com/watch?v=sV2XX7LbYEw
@@ -57,7 +57,7 @@ Step 3: Next, we're going to upload our csv file. Make sure to click on the name
 
 ![image](https://user-images.githubusercontent.com/38171817/117855333-5fdb3600-b258-11eb-8061-272f919b22ee.png)
 
-## [Organizing the Data into Tables According to our dimensional model](https://docs.google.com/document/d/1NqRo34g1V0mCR7Ryq8_PGqHvDbwxl-gnJlO1VjQp69w/edit?usp=sharing)
+## [Organizing the Data into Tables According to our Dimensional Model](https://docs.google.com/document/d/1NqRo34g1V0mCR7Ryq8_PGqHvDbwxl-gnJlO1VjQp69w/edit?usp=sharing)
 Implement your dimensional model diagram by running SQL queries on the Google BigQuery console. 
 
 ## [Analysis for NYC Listings](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/Analysis.ipynb)
@@ -66,8 +66,6 @@ We analyzed the listing data for trends, looking for insight as to which predict
 ## [Predict Price](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/Price_Prediction.ipynb)
 We created a prediction model with our findings to try and predict the daily price of a listing based on the factors. 
 
-## Code Demo
-Our program can be found here: (INSERT LINK)
 
 ## Contact Information
 Feel free to contact our team regarding any component of this repo:
