@@ -51,11 +51,14 @@ Step 3: Next, we're going to upload our csv file. Make sure to click on the name
 - Under Schema, make sure to select the "Schema and input parameters" under Auto detect. 
 - Finally under advanced options, under "Header rows to skip" type in "1" so that the table recognizes the first row as a header row.
 - Keep all other options as their default and click the "Create Table" button in the bottom right. 
-- Repeat this procedure for each table that you intend to create. 
+- Repeat this procedure for each dataset you intend to upload. 
 
 ![image](https://user-images.githubusercontent.com/38171817/117855040-138ff600-b258-11eb-8e0b-546383927874.png)
 
 ![image](https://user-images.githubusercontent.com/38171817/117855333-5fdb3600-b258-11eb-8061-272f919b22ee.png)
+
+## [Organizing the Data into Tables According to our dimensional model](https://docs.google.com/document/d/1NqRo34g1V0mCR7Ryq8_PGqHvDbwxl-gnJlO1VjQp69w/edit?usp=sharing)
+Implement your dimensional model diagram by running SQL queries on the Google BigQuery console. 
 
 ## [Analysis for NYC Listings](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/Analysis.ipynb)
 We analyzed the listing data for trends, looking for insight as to which predictors have the most significance in determining price of an Airbnb listng.
