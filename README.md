@@ -31,7 +31,6 @@ Configure your script to:
 
 2. Example Code: https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/ETL.ipynb
 
-
 ### Load
 Before preceding, please ensure that you are logged into your google account that you would like your data to be linked to.
 
@@ -57,6 +56,12 @@ Step 3: Next, we're going to upload our csv file. Make sure to click on the name
 ![image](https://user-images.githubusercontent.com/38171817/117855040-138ff600-b258-11eb-8e0b-546383927874.png)
 
 ![image](https://user-images.githubusercontent.com/38171817/117855333-5fdb3600-b258-11eb-8061-272f919b22ee.png)
+
+## [Analysis for NYC Listings](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/Analysis.ipynb)
+We analyzed the listing data.
+
+## [Predict Price](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/Price_Prediction.ipynb)
+We predicted the listing daily price to propose several listings can increase the price.
 
 ## Code Demo
 Our program can be found here: (INSERT LINK)
