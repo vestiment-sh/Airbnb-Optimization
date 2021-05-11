@@ -1,6 +1,6 @@
 # Airbnb Optimization
 
-The following instructions should be used to guide you in building a functional ETL pipeline using several languages and technologies
+The following instructions are a guide to build a functional ETL pipeline using several languages and technologies to code valuable programs, queries, and store data in a secure environment. You're going to extract data from the attached CSV files, transform them to your specifications, and load it onto a safe database. The goal is to determine what makes a lucrative Airbnb rental and how much leverage one demogrpahic may have over the other. The Kaggle dataset is the Airbnb listing giving us a brief idea of what the rentals have. The NYC dataset offers additional information on the location of the listings.
 
 ### Getting Started:
 1. For the entirity of the project, we'll be using Python on Jupyter Notebook, which can be used by installing the Anaconda Navigator; in addition to being easy to use and offering error feedback, it's also compatible with R if chosen to work with. An alternative IDE is JetBrains' Pycharm, another excellent platform that supports frontend technologies like HTML, CSS, and Javascript. Both environments can be found here:
@@ -35,14 +35,17 @@ Step 3: Next, we're going to upload our csv file onto our table by selecting "Go
 
 ### Extract
 1. Airbnb Open Data in NYC https://www.kaggle.com/peterzhou/airbnb-open-data-in-nyc?select=reviews_detail.csv
-2. NYC Zipcode Population https://data.beta.nyc/en/dataset/pediacities-nyc-neighborhoods/resource/7caac650-d082-4aea-9f9b-3681d568e8a5 
+2. NYC Zip Borough Population https://data.beta.nyc/en/dataset/pediacities-nyc-neighborhoods/resource/7caac650-d082-4aea-9f9b-3681d568e8a5 
 3. Google Drive with files https://drive.google.com/drive/folders/1dZmn02aiDG0zZgxVGTezfJk3AlBZqfRt?usp=sharing
-### Load
-
 ### Transform
+1. Using Jupyter Notebook, create a Python program to alter the data using your 2 CSV files
+2. Example Code: (INSERT LINK)
+### Load
+1. Load the new data into Google BigQuery
+2. Example Code: (INSERT LINK)
 
 ## Code Demo
-Our program can be found here: 
+Our program can be found here: (INSERT LINK)
 
 ## Contact Information
 Feel free to contact our team regarding any component of this repo:
