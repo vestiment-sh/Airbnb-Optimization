@@ -57,7 +57,7 @@ Step 3: Next, we're going to upload our csv file. Make sure to click on the name
 
 ![image](https://user-images.githubusercontent.com/38171817/117855333-5fdb3600-b258-11eb-8061-272f919b22ee.png)
 
-## [Organizing the Data into Tables According to our Dimensional Model](https://docs.google.com/document/d/1NqRo34g1V0mCR7Ryq8_PGqHvDbwxl-gnJlO1VjQp69w/edit?usp=sharing)
+## [Organizing the Data into Tables According to our Dimensional Model](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/SQL%20Code%20for%20BigQuery.txt)
 Implement your dimensional model diagram by running SQL queries on the Google BigQuery console. 
 
 ## [Analysis for NYC Listings](https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/Analysis.ipynb)
