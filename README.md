@@ -17,7 +17,7 @@ Step 1: Using a Google account, create a new project on https://console.cloud.go
 
 ![image](https://user-images.githubusercontent.com/38171817/117841446-12a49780-b24b-11eb-9009-6d235b8d927d.png)
 
-Step 2: Create a new dataset with a unique name, possibly the name of the project you're working on or simply "Set1." Keep everything as it's default, however you can choose a table expiration date as an option.
+Step 2: Create a new dataset with a unique name by clicking the option shown in the picture. You can name the dataset according to your needs or simply as "Set1." Keep all other settings in this window as it's default, however you can choose a data location and table expiration date as an option if needed. By default, the data is going to be stored in the US multi-region.
 
 ![image](https://user-images.githubusercontent.com/38171817/117846671-a5dfcc00-b24f-11eb-9f5d-2869a1e37e76.png)
 
