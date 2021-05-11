@@ -1,5 +1,7 @@
 # Airbnb Optimization
 
+The following instructions should be used to guide you in building a functional ETL pipeline using several languages and technologies
+
 ### Getting Started:
 1. For the entirity of the project, we'll be using Python on Jupyter Notebook, which can be used by installing the Anaconda Navigator; in addition to being easy to use and offering error feedback, it's also compatible with R if chosen to work with. An alternative IDE is JetBrains' Pycharm, another excellent platform that supports frontend technologies like HTML, CSS, and Javascript. Both environments can be found here:
 - Anaconda Navigator: https://docs.anaconda.com/anaconda/install/
@@ -17,7 +19,7 @@
 ### Extract
 1. New York Airbnb Open Data https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
 2. Local Zipcode Data 
-3. CSV with available CSV files https://drive.google.com/drive/folders/1dZmn02aiDG0zZgxVGTezfJk3AlBZqfRt?usp=sharing
+3. Google Drive with files https://drive.google.com/drive/folders/1dZmn02aiDG0zZgxVGTezfJk3AlBZqfRt?usp=sharing
 ### Load
 
 ### Transform
