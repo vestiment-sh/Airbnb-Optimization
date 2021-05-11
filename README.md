@@ -14,6 +14,17 @@ The following instructions should be used to guide you in building a functional 
 - MySQL: https://dev.mysql.com/downloads/installer/ 
   - Installation Tutorial: https://www.youtube.com/watch?v=OM4aZJW_Ojs
 
+Step 1: Using a Google account, create a new project on https://console.cloud.google.com/home/ under BigQuery. Assign a unique name to your project so you don't forget where you're storing your data.
+
+![image](https://user-images.githubusercontent.com/38171817/117841446-12a49780-b24b-11eb-9009-6d235b8d927d.png)
+
+Step 2: Create a new dataset with a unique name, possibly the name of the csv file you'll be uploading or simply "Table1." Keep everything as it's default, however you can choose a table expiration date as an option.
+
+![image](https://user-images.githubusercontent.com/38171817/117846671-a5dfcc00-b24f-11eb-9f5d-2869a1e37e76.png)
+
+![image](https://user-images.githubusercontent.com/38171817/117850485-569b9a80-b253-11eb-8b34-f149d00f34ea.png)
+
+Step 3: 
 ## Procedure
 
 ### Extract
