@@ -1,18 +1,17 @@
 # Airbnb Optimization
 
-The following instructions are a guide to build a functional ETL pipeline using several languages and technologies to code valuable programs, queries, and store data in a secure environment. You're going to extract data from the attached CSV files, transform them to your specifications, and load it onto a safe database. The goal is to determine what makes a lucrative Airbnb rental and how much leverage one demogrpahic may have over the other. The Kaggle dataset is the Airbnb listing giving us a brief idea of what the rentals have. The NYC dataset offers additional information on the location of the listings.
+The following instructions are a guide to build a functional ETL pipeline using several languages and technologies to code valuable programs, queries, and store data in a secure environment. You're going to extract data from data sources as CSV files, transform them to your specifications, and load them onto a safe database. The goal is to determine the specific factors that constitute a lucrative Airbnb listing. The Kaggle dataset is the Airbnb listings data, providing us with information regarding all the listings in New York and their specific attributes. The NYC zipcode dataset offers additional information regarding the specific zip codes in NYC.
 
 ### Getting Started:
-1. For the entirity of the project, we'll be using Python on Jupyter Notebook, which can be used by installing the Anaconda Navigator; in addition to being easy to use and offering error feedback, it's also compatible with R if chosen to work with. An alternative IDE is JetBrains' Pycharm, another excellent platform that supports frontend technologies like HTML, CSS, and Javascript. Both environments can be found here:
+1. For the entirety of the project, we'll be using Python on Jupyter Notebook, which can be used by installing the Anaconda Navigator; in addition to being easy to use and offering error feedback, it's also compatible with R if chosen to work with. An alternative IDE is JetBrains' Pycharm, another excellent platform that supports frontend technologies like HTML, CSS, and Javascript. Both environments can be found here:
 - Anaconda Navigator: https://docs.anaconda.com/anaconda/install/
 - JetBrains' PyCharm: https://www.jetbrains.com/pycharm/download/#section=windows
 
-2. In order to build our ETL pipeline, we also need a powerful database to upload and warehouse our data, also create the tables with our specifications. We're going to use Google BiqQuery to quickly run our SQL queries and effectively store our data. Being the world's most popular open-source database, MySQL is also a viable option which gives it's users access to several drivers and solid security.
+2. In order to build our ETL pipeline, we need a powerful database server to upload data to and host our data warehouse, while also being able to create the tables with our specifications. We're going to use Google BiqQuery to quickly run our SQL queries and effectively store our data. Since Google Bigquery is on the cloud, it is easy to access on any computer without any need to install anything onto your computer. 
+ 
 - Google BigQuery: https://cloud.google.com/bigquery
-  - Installation Tutorial: https://www.youtube.com/watch?v=sV2XX7LbYEw
+  - Set-Up Tutorial: https://www.youtube.com/watch?v=sV2XX7LbYEw
 
-- MySQL: https://dev.mysql.com/downloads/installer/ 
-  - Installation Tutorial: https://www.youtube.com/watch?v=OM4aZJW_Ojs
 
 Step 1: Using a Google account, create a new project on https://console.cloud.google.com/home/ under BigQuery. Assign a unique name to your project so you don't forget where you're storing your data.
 
@@ -24,7 +23,7 @@ Step 2: Create a new dataset with a unique name, possibly the name of the projec
 
 ![image](https://user-images.githubusercontent.com/38171817/117850485-569b9a80-b253-11eb-8b34-f149d00f34ea.png)
 
-Step 3: Next, we're going to upload our csv file onto our table by selecting "Google Cloud Storage" as the source and pasting our CSV URL into the GCS bucket. Finally, before creating the table, check the box for "Auto Detect" to recognize the schema. Repeat this step for all tables included.
+Step 3: Next, we're going to upload our csv file and create a new table by selecting "Google Cloud Storage" as the source and pasting our CSV URL into the GCS bucket. Finally, before creating the table, check the box for "Auto Detect" to recognize the schema. Repeat this step for all tables included.
 
 ![image](https://user-images.githubusercontent.com/38171817/117855040-138ff600-b258-11eb-8e0b-546383927874.png)
 
