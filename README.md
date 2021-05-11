@@ -34,6 +34,7 @@ Step 3: Next, we're going to upload our csv file onto our table by selecting "Go
 ## Procedure
 
 ### Extract
+The provided CSV files provide sufficient data to determine the proper demographics that factor into a good rental. Below are the direct links to the documentations if additional information is needed:
 1. Airbnb Open Data in NYC https://www.kaggle.com/peterzhou/airbnb-open-data-in-nyc?select=reviews_detail.csv
 2. NYC Zip Borough Population https://data.beta.nyc/en/dataset/pediacities-nyc-neighborhoods/resource/7caac650-d082-4aea-9f9b-3681d568e8a5 
 3. Google Drive with files https://drive.google.com/drive/folders/1dZmn02aiDG0zZgxVGTezfJk3AlBZqfRt?usp=sharing
