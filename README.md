@@ -17,8 +17,8 @@ The following instructions should be used to guide you in building a functional 
 ## Procedure
 
 ### Extract
-1. New York Airbnb Open Data https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
-2. Local Zipcode Data 
+1. Airbnb Open Data in NYC https://www.kaggle.com/peterzhou/airbnb-open-data-in-nyc?select=reviews_detail.csv
+2. NYC Zipcode Population https://data.beta.nyc/en/dataset/pediacities-nyc-neighborhoods/resource/7caac650-d082-4aea-9f9b-3681d568e8a5 
 3. Google Drive with files https://drive.google.com/drive/folders/1dZmn02aiDG0zZgxVGTezfJk3AlBZqfRt?usp=sharing
 ### Load
 
