@@ -13,6 +13,26 @@ The following instructions are a guide to build a functional ETL pipeline using 
   - Set-Up Tutorial: https://www.youtube.com/watch?v=sV2XX7LbYEw
 
 
+## Procedure
+
+### Extract
+We will be downloading data from two sources. Below are the direct links to the datasets if additional information is needed:
+1. Airbnb Open Data in NYC https://www.kaggle.com/peterzhou/airbnb-open-data-in-nyc?select=reviews_detail.csv
+2. NYC Zip Borough Population https://data.beta.nyc/en/dataset/pediacities-nyc-neighborhoods/resource/7caac650-d082-4aea-9f9b-3681d568e8a5 
+
+### Transform
+1. Using Jupyter Notebook, create a Python program to clean the data using your 2 CSV files
+Configure your script to:
+- Drop listing information that has Null data
+- Remove unnecessary characters - i.g. "$", ","
+- Convert correct datatypes
+- Adjust Zipcode so that they are all 5 integers
+- Create necessary columns
+
+2. Example Code: (INSERT LINK)
+
+
+### Load
 Before preceding, please ensure that you are logged into your google account that you would like your data to be linked to.
 
 Step 1: Using a Google account, create a new project on https://console.cloud.google.com/bigquery by clicking on the dropdown menu on the top of the page which is on the right side of where it says "Google Cloud Platform". A window will pop up which has the "New Project" button in the top right, click that. Assign a unique name to your project so you don't forget where you're storing your data.
@@ -37,21 +57,6 @@ Step 3: Next, we're going to upload our csv file. Make sure to click on the name
 ![image](https://user-images.githubusercontent.com/38171817/117855040-138ff600-b258-11eb-8e0b-546383927874.png)
 
 ![image](https://user-images.githubusercontent.com/38171817/117855333-5fdb3600-b258-11eb-8061-272f919b22ee.png)
-
-
-## Procedure
-
-### Extract
-The provided CSV files provide sufficient data to determine the proper demographics that factor into a good rental. Below are the direct links to the documentations if additional information is needed:
-1. Airbnb Open Data in NYC https://www.kaggle.com/peterzhou/airbnb-open-data-in-nyc?select=reviews_detail.csv
-2. NYC Zip Borough Population https://data.beta.nyc/en/dataset/pediacities-nyc-neighborhoods/resource/7caac650-d082-4aea-9f9b-3681d568e8a5 
-3. Google Drive with files https://drive.google.com/drive/folders/1dZmn02aiDG0zZgxVGTezfJk3AlBZqfRt?usp=sharing
-### Transform
-1. Using Jupyter Notebook, create a Python program to alter the data using your 2 CSV files
-2. Example Code: (INSERT LINK)
-### Load
-1. Load the new data into Google BigQuery
-2. Example Code: (INSERT LINK)
 
 ## Code Demo
 Our program can be found here: (INSERT LINK)
