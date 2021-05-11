@@ -29,7 +29,7 @@ Configure your script to:
 - Adjust Zipcode so that they are all 5 integers
 - Create necessary columns
 
-2. Example Code: (INSERT LINK)
+2. Example Code: https://github.com/vestiment-sh/Airbnb-Optimization/blob/main/ETL.ipynb
 
 
 ### Load
