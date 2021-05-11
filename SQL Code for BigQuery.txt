@@ -1,0 +1,58 @@
+﻿This is the code we ran on BigQuery console to partition our data according to our dimensional modeling diagram. 
+
+
+SQL CODE:
+
+
+Master Table (joined two original tables)
+Create table `airbnbwarehouse.airbnb.master_table` AS (
+SELECT *
+FROM `airbnbwarehouse.airbnb.airbnb_data` 
+INNER JOIN  `airbnbwarehouse.airbnb.zipcode_data` 
+ON `airbnbwarehouse.airbnb.airbnb_data`.zipcode =`airbnbwarehouse.airbnb.zipcode_data`.zip);
+
+
+
+
+Listing_Reviews Table
+Create table `airbnbwarehouse.airbnb.Listing_Reviews` AS (
+SELECT review_id,number_of_reviews,review_scores_rating, review_scores_accuracy, review_scores_cleanliness, review_scores_checkin, review_scores_communication, review_scores_location, review_scores_value
+FROM `airbnbwarehouse.airbnb.master_table`);
+
+
+
+
+Location_Table
+Create table `airbnbwarehouse.airbnb.Location` AS (
+SELECT zipcode,density,borough,population
+FROM `airbnbwarehouse.airbnb.master_table`);
+
+
+
+
+Host_Information Table
+Create table `airbnbwarehouse.airbnb.Host_Info` AS (
+SELECT host_id,host_response_rate, host_is_superhost, host_total_listings_count, host_identity_verified 
+FROM `airbnbwarehouse.airbnb.master_table`);
+
+
+
+
+Property_details Table
+Create table `airbnbwarehouse.airbnb.Property_Details`AS (
+SELECT property_id, property_type, room_type,bathrooms, bedrooms,beds
+FROM `airbnbwarehouse.airbnb.master_table`);
+
+
+Listing_details Table
+Create table `airbnbwarehouse.airbnb.Listing_Details`AS (
+SELECT Listing_id,accommodates, minimum_nights, maximum_nights
+FROM `airbnbwarehouse.airbnb.master_table`);
+
+
+
+
+Airbnb_Price_Data
+Create table `airbnbwarehouse.airbnb.Airbnb_Price_Data` AS(
+SELECT price, host_id, zipcode, property_id, review_id, listing_id 
+FROM `airbnbwarehouse.airbnb.master_table`);
